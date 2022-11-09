@@ -1,0 +1,35 @@
+{
+  "origin": "remote",
+  "type": "request",
+  "correlation": "cf915d856d4c4b48",
+  "protocol": "HTTP/1.1",
+  "remote": "127.0.0.1",
+  "method": "GET",
+  "uri": "http://localhost:8082/api/test?message=Test",
+  "headers": {
+    "accept": [
+      "text/plain, application/json, application/*+json, */*"
+    ],
+    "connection": [
+      "keep-alive"
+    ],
+    "host": [
+      "localhost:8082"
+    ],
+    "user-agent": [
+      "Java/19"
+    ],
+    "x-b3-parentspanid": [
+      "c38bfbdee618ece1"
+    ],
+    "x-b3-sampled": [
+      "1"
+    ],
+    "x-b3-spanid": [
+      "74f6a42e68444acb"
+    ],
+    "x-b3-traceid": [
+      "c38bfbdee618ece1"
+    ]
+  }
+}
